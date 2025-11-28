@@ -1,0 +1,35 @@
+# Example configuration for the Safety Deployment Platform
+[app]
+log_dir = "logs"
+environment = "staging"
+journald_log = "logs/journald.log"
+
+[safety]
+financial_blocklist_enabled = true
+consent_required = true
+financial_blocklist = [
+  "fraudster-001",
+  "synthetic-999"
+]
+
+[safety.rate_limit]
+enabled = true
+max_requests = 5
+window_seconds = 60
+
+[safety.output_validation]
+enabled = true
+blocked_terms = [
+  "advice",
+  "ssn",
+  "passport",
+  "wire instructions"
+]
+
+[monitoring]
+memory_threshold_mb = 2048
+offline_ready_paths = [
+  "config",
+  "systemd",
+  "scripts"
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "user_id": "demo-user",
+    "consent": true,
+    "message": "Hello safety worker"
+  },
+  {
+    "user_id": "fraudster-001",
+    "consent": true,
+    "message": "Release funds"
+  }
+]
