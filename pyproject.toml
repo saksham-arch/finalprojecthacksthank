@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "encrypted-backend"
+version = "0.1.0"
+description = "FastAPI backend scaffold with SQLCipher secured SQLite storage"
+authors = [{name = "CTO.new"}]
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.103",
+  "pydantic>=2.4",
+  "pydantic-settings>=2.0",
+  "sqlalchemy>=2.0",
+  "alembic>=1.12",
+  "pysqlcipher3>=1.0.4",
+  "uvicorn>=0.23",
+  "python-dateutil>=2.8",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.4",
+  "freezegun>=1.2",
+]
+
+[tool.setuptools.packages.find]
+where = ["app"]
