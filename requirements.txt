@@ -1,0 +1,7 @@
+fastapi==0.104.1
+uvicorn==0.24.0.post1
+pydantic==1.10.13
+tomli==2.0.1
+psutil==5.9.6
+httpx==0.25.2
+pytest==7.4.3

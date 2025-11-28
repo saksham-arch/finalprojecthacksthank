@@ -1,0 +1,18 @@
+[Unit]
+Description=Safety Queue Worker
+After=network.target
+PartOf=safety-api.service
+
+[Service]
+Type=simple
+EnvironmentFile=/etc/safety-platform.env
+WorkingDirectory=/
+ExecStart=/usr/bin/env bash -lc 'cd "$PROJECT_ROOT" && "$PYTHON_BIN" worker.py --queue-file "$PROJECT_ROOT/queue/tasks.json" --interval "${QUEUE_POLL_INTERVAL:-15}"'
+Restart=always
+RestartSec=10
+MemoryMax=2G
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
