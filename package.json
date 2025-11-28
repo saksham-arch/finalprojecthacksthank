@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Deterministic financial rule engine with multilingual SMS responses.",
+  "main": "src/ruleEngine.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saksham-arch/finalprojecthacksthank.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/saksham-arch/finalprojecthacksthank/issues"
+  },
+  "homepage": "https://github.com/saksham-arch/finalprojecthacksthank#readme"
+}
