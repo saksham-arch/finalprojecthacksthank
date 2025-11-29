@@ -1,0 +1,12 @@
+{
+  "name": "cashflow-predictor",
+  "version": "1.0.0",
+  "description": "Irregular income cashflow predictor with seasonal intelligence",
+  "main": "src/modules/cashflow/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
