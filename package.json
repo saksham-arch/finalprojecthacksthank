@@ -1,0 +1,12 @@
+{
+  "name": "goal-tracker",
+  "version": "1.0.0",
+  "description": "Goal tracker module for micro goals",
+  "main": "src/modules/goals/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

@@ -1,0 +1,11 @@
+const GOAL_MIN_AMOUNT = 500;
+const GOAL_MAX_AMOUNT = 10000;
+const INACTIVITY_DAYS = 14;
+const MILESTONES = [0.25, 0.5, 0.75, 1];
+
+module.exports = {
+  GOAL_MIN_AMOUNT,
+  GOAL_MAX_AMOUNT,
+  INACTIVITY_DAYS,
+  MILESTONES,
+};
