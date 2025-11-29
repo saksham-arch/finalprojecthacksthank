@@ -1,0 +1,56 @@
+[
+  {
+    "id": "TASK-101",
+    "title": "Introduce draft sync automation",
+    "status": "draft",
+    "description": "Sync draft tasks from the discovery tracker into GitHub issues so engineering can pick them up.",
+    "priority": "high",
+    "labels": ["automation", "workflow"],
+    "assignees": ["octocat"],
+    "acceptanceCriteria": [
+      "Draft tasks can be converted into GitHub issues with a single command",
+      "Generated issues clearly call out acceptance criteria and metadata"
+    ],
+    "checklist": [
+      "Define JSON schema",
+      "Add dry-run support"
+    ],
+    "area": "platform",
+    "initiative": "work-management",
+    "owner": "platform-pod"
+  },
+  {
+    "id": "TASK-102",
+    "title": "Harden GitHub sync telemetry",
+    "status": "draft",
+    "description": "Capture metrics for success/failure so operations can audit sync quality.",
+    "priority": "medium",
+    "labels": ["observability"],
+    "assignees": [],
+    "acceptanceCriteria": [
+      "Emit structured summary after every sync",
+      "Failures are bubbled up as actionable error messages"
+    ],
+    "checklist": [
+      "Add summary reporter",
+      "Document runbook"
+    ],
+    "area": "platform",
+    "initiative": "work-management",
+    "owner": "analytics"
+  },
+  {
+    "id": "TASK-103",
+    "title": "Improve task discovery",
+    "status": "synced",
+    "description": "Already mirrored in GitHub but kept for reference.",
+    "priority": "low",
+    "labels": ["docs"],
+    "assignees": ["hubot"],
+    "github": {
+      "number": 42,
+      "url": "https://github.com/example/repo/issues/42",
+      "pushedAt": "2024-01-01T00:00:00.000Z"
+    }
+  }
+]
