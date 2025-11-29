@@ -19,7 +19,7 @@ def _compile_default_rules() -> List[FallbackRule]:
     keywords = {
         "billing": r"billing|invoice|refund|factura|facture|rechnung|reembolso",
         "security": r"password|login|contraseña|mot de passe|kennwort",
-        "sales": r"buy|purchase|quote|precio|cotización|angebot",
+        "sales": r"buy|purchase|price|pricing|quote|precio|cotización|angebot",
         "technical": r"error|bug|issue|falla|problema|panne",
         "cancellation": r"cancel|close account|cerrar|annuler",
     }
