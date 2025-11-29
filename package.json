@@ -1,0 +1,20 @@
+{
+  "name": "router-guardrails-system",
+  "version": "1.0.0",
+  "description": "Intent router with guardrails and DPDP flows",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
