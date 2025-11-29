@@ -1,0 +1,20 @@
+{
+  "name": "draft-task-pusher",
+  "version": "0.1.0",
+  "description": "Utilities to push draft product tasks to GitHub issues",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "push:drafts": "node src/cli/pushDrafts.js"
+  },
+  "keywords": [
+    "tasks",
+    "github",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
