@@ -1,0 +1,29 @@
+{
+  "name": "budget-advisor",
+  "version": "1.0.0",
+  "description": "Rule-driven budget advisor module with cultural envelopes and SMS guidance",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saksham-arch/finalprojecthacksthank.git"
+  },
+  "keywords": [
+    "budget",
+    "advisor",
+    "festival",
+    "sms"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/saksham-arch/finalprojecthacksthank/issues"
+  },
+  "homepage": "https://github.com/saksham-arch/finalprojecthacksthank#readme",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
